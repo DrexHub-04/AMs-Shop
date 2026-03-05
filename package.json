@@ -2,13 +2,15 @@
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
+"homepage": "https://DrexHub-04.github.io/AMs-Shop",
   "type": "module",
-"homepage": "https://DrexHub-04.github.io/AMs-Shop/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
