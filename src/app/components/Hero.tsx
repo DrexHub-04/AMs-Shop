@@ -27,7 +27,7 @@ export function Hero() {
         </h1>
         <p className="text-lg sm:text-xl text-zinc-300 mb-8 max-w-2xl">
           Precision welding services for industrial, commercial, and residential projects. 
-          Quality craftsmanship backed by 20+ years of experience.
+          Quality craftsmanship backed by 10+ years of experience.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
           <button

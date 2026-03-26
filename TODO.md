@@ -1,17 +1,17 @@
-# GitHub Pages Update TODO - Troubleshooting
+# GH Pages Deploy - AM's Welding Fix
 
-- [x] 1. Check git status ✅ Clean
-- [x] 2. Initial commit/push TODO ✅ f8b41b3
-- [x] 3. Push complete ✅
-- [ ] **New**: Stage component changes, commit/push
-- [ ] 4. npm run build
-- [ ] 5. [Actions](https://github.com/DrexHub-04/AMs-Shop/actions)
-- [ ] 6. Live site ✅ Wait 10min, hard refresh Ctrl+F5
-- [ ] GH Settings > Pages > Source: GitHub Actions?
+- [x] Pushes: f8b41b3, 7d12219 ✅
+- [ ] Current push running: Stage About.tsx (Am's content) + components → deploy
+- [ ] npm run build/preview
+- [ ] Actions: https://github.com/DrexHub-04/AMs-Shop/actions
+- [ ] Live: https://DrexHub-04.github.io/AMs-Shop/ (expect "About Am's Welding")
 
-**Troubleshooting**:
-- Actions logs for errors
-- Incognito test
-- `git diff` changes
+**Root Cause**: About.tsx local "Am's" not committed.
+**Next**: Push complete → new build → site updates.
+
+**Verify Local**:
+npm run preview
+
+**Repo Settings**: Pages > GitHub Actions source.
 
 
