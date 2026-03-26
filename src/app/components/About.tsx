@@ -3,7 +3,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const features = [
   "AWS Certified Welders",
-  "20+ Years Experience",
+  "10+ Years Experience",
   "Licensed & Insured",
   "Quality Guaranteed",
   "Competitive Pricing",
