@@ -14,7 +14,7 @@ export function Footer() {
               <span className="text-xl font-bold">AM's Welding Shop</span>
             </div>
             <p className="text-zinc-400 mb-4">
-              Professional welding and metal fabrication services with over 20 years of experience.
+              Professional welding and metal fabrication services with over 10 years of experience.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-zinc-400 hover:text-orange-500 transition-colors">
