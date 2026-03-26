@@ -26,9 +26,9 @@ export function About() {
 
           {/* Content */}
           <div>
-            <h2 className="text-4xl text-zinc-900 mb-6">About Elite Welding</h2>
+            <h2 className="text-4xl text-zinc-900 mb-6">About Am's Welding</h2>
             <p className="text-lg text-zinc-600 mb-6">
-              Since 2006, Elite Welding has been providing top-quality welding and metal fabrication 
+              Since 2015, Am's Welding has been providing top-quality welding and metal fabrication 
               services to residential, commercial, and industrial clients. Our team of certified 
               welders brings decades of combined experience to every project.
             </p>
